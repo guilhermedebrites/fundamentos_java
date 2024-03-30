@@ -25,4 +25,9 @@ public class Pessoa {
     public void setCPF(String CPF) {
         this.CPF = CPF;
     }  
+
+    String imprimirDadosDaPessoa(){
+        return "O nome da pessoa é " + nome + " a idade é "
+            + idade + " e o documento é " + CPF;
+    }
 }

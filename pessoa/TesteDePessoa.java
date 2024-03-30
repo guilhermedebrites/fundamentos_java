@@ -13,10 +13,14 @@ public class TesteDePessoa {
         professor1.setCPF("444898933");
         professor1.setSalario(50000);
 
+        System.out.println(professor1.imprimirDadosDaPessoa());
+
         Aluno aluno = new Aluno();
         aluno.setNome("Jonathan");
         aluno.setIdade(23);
         aluno.setCPF("444898933");
         aluno.setMatricula("808721");
+
+        System.out.println(aluno.imprimirDadosDaPessoa());
     }
 }
