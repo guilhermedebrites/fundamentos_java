@@ -1,0 +1,5 @@
+Wrapper Classes
+
+-> A criação de um objeto para embrulhar os dados dos tipos primitivos.
+-> De forma que é possível manipular os dados.
+-> Tipos primitivos ocupam menos memória na nossa aplicação.
